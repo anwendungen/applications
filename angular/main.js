@@ -13,7 +13,8 @@
             'app.factory',
             'app.filters',
             'app.services',
-            'app.routes'
+            'app.routes',
+            'app.component'
         ]);
 
     angular.module('app.config', []);
