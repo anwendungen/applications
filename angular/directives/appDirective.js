@@ -10,13 +10,12 @@
      *
      * @restrict A
      * */
-    angular.module('app.directives')
-        .directive('appDirective', function() {
-            return {
-                restrict: 'A',
-                link    : function(scope, elem, attr) {
+    angular.module('app.directives').directive('appDirective', function() {
+        return {
+            restrict: 'A',
+            link    : function(scope, elem, attr) {
 
-                }
-            };
-        });
+            }
+        };
+    });
 })();

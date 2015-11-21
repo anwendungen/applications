@@ -8,12 +8,11 @@
      * _Please update the description and dependencies._
      *
      * */
-    angular.module('app.services')
-        .service('appService', function() {
+    angular.module('app.services').service('appService', function() {
 
-            this.testMethod = function() {
+        this.testMethod = function() {
 
-            };
+        };
 
-        });
+    });
 })();

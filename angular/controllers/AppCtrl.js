@@ -10,8 +10,7 @@
      *
      * @requires $scope
      * */
-    angular.module('app.controllers')
-        .controller('AppCtrl', function($scope) {
+    angular.module('app.controllers').controller('AppCtrl', function($scope) {
 
-        });
+    });
 })();
