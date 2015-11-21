@@ -6,3 +6,7 @@
 Route::get('/', function () {
     return view('applications::index');
 });
+
+Route::get('/unsupported-browser', function () {
+    return view('applications::unsupported_browser');
+});
