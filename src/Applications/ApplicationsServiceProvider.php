@@ -25,7 +25,7 @@ class ApplicationsServiceProvider extends ServiceProvider
         $applicationsFileName = with(new ReflectionClass('Applications\ApplicationsServiceProvider'))->getFileName();
         $applicationsPath = dirname($applicationsFileName);
 
-        $this->loadViewsFrom($applicationsPath . '/../views', 'Applications');
+        $this->loadViewsFrom($applicationsPath . '/../views', 'applications');
 
         include $applicationsPath . '/../routes.php';
 
