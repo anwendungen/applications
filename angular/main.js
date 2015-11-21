@@ -5,6 +5,6 @@
 (function() {
     'use strict';
 
-    angular.module('mainApp', ['app', 'components']);
+    angular.module('applications', ['app', 'components']);
 
 })();
