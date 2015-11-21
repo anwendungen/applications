@@ -1,5 +1,7 @@
 <?php namespace Applications;
 
+use ReflectionClass;
+use Illuminate\Foundation\AliasLoader;
 use Illuminate\Support\ServiceProvider;
 
 class ApplicationsServiceProvider extends ServiceProvider
@@ -19,6 +21,13 @@ class ApplicationsServiceProvider extends ServiceProvider
      */
     public function boot()
     {
+        // Find path to the package
+        $applicationsFileName = with(new ReflectionClass('Applications\ApplicationsServiceProvider'))->getFileName();
+        $applicationsPath = dirname($applicationsFileName);
+
+        $this->loadViewsFrom($applicationsPath . '/../views', 'Applications');
+
+        include $applicationsPath . '/../routes.php';
 
     }
 
