@@ -10,3 +10,16 @@ Route::get('/', function () {
 Route::get('/unsupported-browser', function () {
     return view('applications::unsupported_browser');
 });
+
+$api = app('Dingo\Api\Routing\Router');
+
+$api->version('v1', function ($api) {
+
+
+});
+
+//protected with JWT
+$api->version('v1', ['middleware' => 'api.auth'], function ($api) {
+
+
+});
