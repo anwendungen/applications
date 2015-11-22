@@ -38,16 +38,10 @@ class ApplicationsServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->app->register(\Tymon\JWTAuth\Providers\JWTAuthServiceProvider::class);
         $this->app->register(\Dingo\Api\Provider\LaravelServiceProvider::class);
         $this->app->register(\Barryvdh\Cors\ServiceProvider::class);
 
         $this->app->register(\JwtAuth\JwtAuthServiceProvider::class);
-
-        $loader = AliasLoader::getInstance();
-        $loader->alias('JWTAuth', \Tymon\JWTAuth\Facades\JWTAuth::class);
-        $loader->alias('JWTFactory', \Tymon\JWTAuth\Facades\JWTFactory::class);
-
     }
 
     /**
