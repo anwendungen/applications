@@ -19,7 +19,6 @@
     "php"                 : ">=5.5.9",
     "illuminate/support"  : "5.1.*@dev",
     "illuminate/contracts": "5.1.*@dev",
-    "tymon/jwt-auth"      : "0.5.*",
     "dingo/api"        : "1.0.*@dev",
     "barryvdh/laravel-cors": "0.7.x"
   },
