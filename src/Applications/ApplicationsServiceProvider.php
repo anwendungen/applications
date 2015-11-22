@@ -22,12 +22,12 @@ class ApplicationsServiceProvider extends ServiceProvider
     public function boot()
     {
         // Find path to the package
-        $applicationsFileName = with(new ReflectionClass('Applications\ApplicationsServiceProvider'))->getFileName();
-        $applicationsPath = dirname($applicationsFileName);
+        $applicationFileName = with(new ReflectionClass('Applications\ApplicationsServiceProvider'))->getFileName();
+        $applicationPath = dirname($applicationFileName);
 
-        $this->loadViewsFrom($applicationsPath . '/../views', 'applications');
+        $this->loadViewsFrom($applicationPath . '/../views', 'applications');
 
-        include $applicationsPath . '/../routes.php';
+        include $applicationPath . '/../routes.php';
 
     }
 
@@ -41,6 +41,8 @@ class ApplicationsServiceProvider extends ServiceProvider
         $this->app->register(\Tymon\JWTAuth\Providers\JWTAuthServiceProvider::class);
         $this->app->register(\Dingo\Api\Provider\LaravelServiceProvider::class);
         $this->app->register(\Barryvdh\Cors\ServiceProvider::class);
+
+        $this->app->register(\JwtAuth\JwtAuthServiceProvider::class);
 
         $loader = AliasLoader::getInstance();
         $loader->alias('JWTAuth', \Tymon\JWTAuth\Facades\JWTAuth::class);
