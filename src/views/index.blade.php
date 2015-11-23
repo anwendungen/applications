@@ -4,7 +4,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <link rel="stylesheet" href="{!! asset('css/vendor.css') !!}">
     <link rel="stylesheet" href="{!! asset('css/app.css') !!}">
-    <link rel="stylesheet" href="{!! asset('css/prism.css') !!}">
     <link href='//fonts.googleapis.com/css?family=Roboto:500,400' rel='stylesheet' type='text/css'>
     <title ng-bind="title || 'Application'"></title>
     <!--[if lte IE 10]>
@@ -17,7 +16,6 @@
 
 <script src="{!! asset('js/vendor.js') !!}"></script>
 <script src="{!! asset('js/app.js') !!}"></script>
-<script src="{!! asset('js/prism.js') !!}"></script>
 
 {{--livereload--}}
 @if ( Config::get('app.debug') )

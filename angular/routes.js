@@ -46,7 +46,7 @@
                 views   : {
                     'layout@'         : {
                         templateUrl: layout('app.layout')
-                    },
+                    }/*,
                     'header@app'      : {
                         templateUrl: view('app.header')
                     },
@@ -59,15 +59,18 @@
                     'footer@app'      : {
                         templateUrl: view('app.footer')
                     },
-                    'main@app'        : {}
+                    'main@app'        : {}*/
                 }
             })
             .state('app.home', {
                 url  : '/',
                 data : { pageName: 'Homepage' },
                 views: {
-                    'main@app': {
+                    /*'main@app': {
                         templateUrl: view('app.home')
+                    }*/
+                    'layout@'         : {
+                        templateUrl: layout('app.layout')
                     }
                 }
             })

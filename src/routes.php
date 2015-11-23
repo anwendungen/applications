@@ -11,10 +11,6 @@ Route::get('/unsupported-browser', function () {
     return view('applications::unsupported_browser');
 });
 
-Route::get('/test-layout', function () {
-    return view('applications::test_layout');
-});
-
 $api = app('Dingo\Api\Routing\Router');
 
 $api->version('v1', function ($api) {
