@@ -52,10 +52,10 @@
                     },
                     'leftsection@app' : {
                         templateUrl: view('app.leftsection')
-                    },
-                    'rightsection@app': {
-                        templateUrl: view('app.rightsection')
-                    },
+                    }*/,
+                    'right@app': {
+                        templateUrl: view('app.right')
+                    }/*,
                     'footer@app'      : {
                         templateUrl: view('app.footer')
                     },
