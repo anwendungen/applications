@@ -1,4 +1,5 @@
-<div ng-controller="AppCtrl" layout="column" style="min-height: 500px;" ng-cloak>
+<div ng-controller="LayoutCtrl" layout="column" style="min-height: 500px;" ng-cloak>
+
     <!--left-->
     <section layout="row" flex>
         <div style="border-right: 1px solid rgba(0,0,0,0.12);">
@@ -8,35 +9,10 @@
         </div>
 
         <!--main-->
-        <!--<md-content flex layout-padding>-->
         <md-content flex>
             <div layout="column" layout-fill layout-align="top center">
-
                 <div ui-view="header"></div>
-
-                <md-content flex layout-padding>
-
-                    <p>
-                        The left sidenav will 'lock open' on a medium (>=960px wide) device.
-                    </p>
-
-                    <p>
-                        The right sidenav will focus on a specific child element.
-                    </p>
-
-                    <div>
-                        <md-button ng-click="toggleLeft()" class="md-primary" hide-gt-md>
-                            Toggle left
-                        </md-button>
-                    </div>
-                    <div>
-                        <md-button ng-click="toggleRight()" ng-hide="isOpenRight()" class="md-primary">
-                            Toggle right
-                        </md-button>
-                    </div>
-
-                </md-content>
-
+                <div ui-view="main"></div>
             </div>
             <div flex></div>
         </md-content>
@@ -45,7 +21,8 @@
         <md-sidenav class="md-sidenav-right md-whiteframe-z2" md-component-id="right">
             <div ui-view="right"></div>
         </md-sidenav>
-
     </section>
+
+    <!--footer-->
     <div ui-view="footer"></div>
 </div>

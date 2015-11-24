@@ -44,33 +44,30 @@
             .state('app', {
                 abstract: true,
                 views   : {
-                    'layout@'         : {
+                    'layout@'   : {
                         templateUrl: layout('app.layout')
                     },
-                    'header@app'      : {
+                    'header@app': {
                         templateUrl: view('app.header')
                     },
-                    'left@app' : {
+                    'left@app'  : {
                         templateUrl: view('app.left')
                     },
-                    'right@app': {
+                    'right@app' : {
                         templateUrl: view('app.right')
                     },
-                    'footer@app'      : {
+                    'footer@app': {
                         templateUrl: view('app.footer')
-                    }/*,
-                    'main@app'        : {}*/
+                    },
+                    'main@app'  : {}
                 }
             })
             .state('app.home', {
                 url  : '/',
                 data : { pageName: 'Homepage' },
                 views: {
-                    /*'main@app': {
+                    'main@app': {
                         templateUrl: view('app.home')
-                    }*/
-                    'layout@'         : {
-                        templateUrl: layout('app.layout')
                     }
                 }
             })
