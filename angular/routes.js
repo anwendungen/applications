@@ -49,10 +49,10 @@
                     }/*,
                     'header@app'      : {
                         templateUrl: view('app.header')
-                    },
-                    'leftsection@app' : {
-                        templateUrl: view('app.leftsection')
                     }*/,
+                    'left@app' : {
+                        templateUrl: view('app.left')
+                    },
                     'right@app': {
                         templateUrl: view('app.right')
                     },
