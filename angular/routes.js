@@ -55,10 +55,10 @@
                     }*/,
                     'right@app': {
                         templateUrl: view('app.right')
-                    }/*,
+                    },
                     'footer@app'      : {
                         templateUrl: view('app.footer')
-                    },
+                    }/*,
                     'main@app'        : {}*/
                 }
             })
