@@ -136,9 +136,9 @@
 
         function view(viewName) {
             if (viewName !== "") {
-                return './views/app/' + appName(viewName) + '/' + fileDir(viewName) + '/' + fileName(viewName) + '.html';
+                return './views/applications/' + appName(viewName) + '/' + fileDir(viewName) + '/' + fileName(viewName) + '.html';
             } else {
-                return './views/app/app/home/home.html';
+                return './views/applications/app/home/home.html';
             }
         }
 
@@ -146,7 +146,7 @@
             if (viewName !== "") {
                 return './views/themes/' + appName(viewName) + '/' + fileDir(viewName) + '/' + fileName(viewName) + '.html';
             } else {
-                return './views/app/app/home/home.html';
+                return './views/applications/app/home/home.html';
             }
 
         }
