@@ -6,16 +6,16 @@
      * @name app
      *
      * @description
-     * _Please update the description and restriction._
+     * _Update the description and restriction._
      *
      * @restrict A
      * */
-    angular.module('app.directives').directive('appDirective', function() {
+    angular.module('app.directives').directive('appDirective', [function() {
         return {
             restrict: 'A',
             link    : function(scope, elem, attr) {
 
             }
         };
-    });
+    }]);
 })();
