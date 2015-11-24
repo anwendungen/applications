@@ -1,8 +1,8 @@
-<div ng-controller="LayoutCtrl" layout="column" style="min-height: 500px;" ng-cloak>
+<div id="sg-layout-container" ng-controller="LayoutCtrl" layout="column" ng-cloak>
 
     <!--left-->
     <section layout="row" flex>
-        <div style="border-right: 1px solid rgba(0,0,0,0.12);">
+        <div id="sg-sidenav">
             <md-sidenav class="md-sidenav-left" md-component-id="left" md-is-locked-open="$mdMedia('gt-md')">
                 <div ui-view="left"></div>
             </md-sidenav>
