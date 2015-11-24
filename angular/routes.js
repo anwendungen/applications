@@ -46,10 +46,10 @@
                 views   : {
                     'layout@'         : {
                         templateUrl: layout('app.layout')
-                    }/*,
+                    },
                     'header@app'      : {
                         templateUrl: view('app.header')
-                    }*/,
+                    },
                     'left@app' : {
                         templateUrl: view('app.left')
                     },
