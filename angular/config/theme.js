@@ -3,8 +3,8 @@
 
     angular.module('app.config').config(function($mdThemingProvider) {
         $mdThemingProvider.theme('default')
-            .primaryPalette('indigo')
-            .accentPalette('grey')
+            .primaryPalette('grey')
+            .accentPalette('pink')
             .warnPalette('red');
     });
 
