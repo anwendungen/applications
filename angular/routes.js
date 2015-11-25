@@ -45,7 +45,7 @@
                 abstract: true,
                 views   : {
                     'layout@'   : {
-                        templateUrl: layout('app.layout')
+                        templateUrl: layout('app.simple')
                     },
                     'header@app': {
                         templateUrl: view('app.header')

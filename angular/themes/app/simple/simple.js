@@ -7,7 +7,7 @@
 
     angular
         .module('app.controllers')
-        .controller('LayoutCtrl', function($scope, $timeout, $mdSidenav, $log) {
+        .controller('SimpleCtrl', function($scope, $timeout, $mdSidenav, $log) {
             $scope.toggleLeft  = buildDelayedToggler('left');
             $scope.toggleRight = buildToggler('right');
             $scope.isOpenRight = function() {
