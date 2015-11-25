@@ -1,19 +1,11 @@
-<div ng-controller="RightCtrl">
-    <md-toolbar class="md-primary md-hue-3">
-        <h1 class="md-toolbar-tools">Sidenav [Right]</h1>
-    </md-toolbar>
-
-    <md-content layout-padding>
-
-        <form>
-            <md-input-container>
-                <label for="testInput">Test input</label>
-                <input type="text" id="testInput" ng-model="data" md-autofocus>
-            </md-input-container>
-        </form>
-
-        <md-button ng-click="close()" class="md-raised md-primary md-hue-2">
-            Close Sidenav Right
-        </md-button>
-    </md-content>
-</div>
+<md-content layout-padding ng-controller="RightCtrl">
+    <form>
+        <md-input-container>
+            <label for="testInput">Test input</label>
+            <input type="text" id="testInput" ng-model="data" md-autofocus>
+        </md-input-container>
+    </form>
+    <!--<md-button ng-click="close()" class="md-raised md-primary md-hue-3">
+        Close
+    </md-button>-->
+</md-content>
