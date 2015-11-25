@@ -1,11 +1,11 @@
 /**
- * Created by anonymoussc on 24/11/15 3:29.
+ * Created by anonymoussc on 26/11/15 4:04.
  */
 
 (function() {
     'use strict';
-    
-    angular.module('app.controllers').controller('HomeCtrl', ['$scope', function($scope) {
-        
+
+    angular.module('app.controllers').controller('DashboardHomeCtrl', ['$scope', function($scope) {
+
     }]);
 })();
