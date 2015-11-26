@@ -94,7 +94,7 @@
                 }
             })
             .state('jwtauth.signin', {
-                url  : '/sign-in',
+                url  : '/signin',
                 data : { pageName: 'Sign-in' },
                 views: {
                     'main@jwtauth': {
@@ -124,12 +124,12 @@
                     'main@staticpage'        : {}
                 }
             })
-            .state('staticpage.home', {
+            .state('staticpage.landing', {
                 url  : '/',
-                data : { pageName: 'Homepage' },
+                data : { pageName: 'Landing page' },
                 views: {
                     'main@staticpage': {
-                        templateUrl: view('staticpage.home')
+                        templateUrl: view('staticpage.landing')
                     }
                 }
             });
