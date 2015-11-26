@@ -76,16 +76,16 @@
                 url     : '/auth',
                 views   : {
                     'layout@'             : {
-                        templateUrl: layout('jwt_auth.layout')
+                        templateUrl: layout('jwt_auth.simple')
                     },
                     'header@jwtauth'      : {
                         templateUrl: view('jwt_auth.header')
                     },
-                    'leftsection@jwtauth' : {
-                        templateUrl: view('jwt_auth.leftsection')
+                    'left@jwtauth' : {
+                        templateUrl: view('jwt_auth.left')
                     },
-                    'rightsection@jwtauth': {
-                        templateUrl: view('jwt_auth.rightsection')
+                    'right@jwtauth': {
+                        templateUrl: view('jwt_auth.right')
                     },
                     'footer@jwtauth'      : {
                         templateUrl: view('jwt_auth.footer')
@@ -98,7 +98,7 @@
                 data : { pageName: 'Sign-in' },
                 views: {
                     'main@jwtauth': {
-                        templateUrl: view('jwt_auth.signin')
+                        templateUrl: view('jwt_auth.home')
                     }
                 }
             })
