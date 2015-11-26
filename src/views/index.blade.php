@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html ng-app="applications">
+<html ng-app="applications" ng-controller="AppCtrl">
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <link rel="stylesheet" href="{!! asset('css/vendor.css') !!}">
     <link rel="stylesheet" href="{!! asset('css/app.css') !!}">
     <link href='//fonts.googleapis.com/css?family=Roboto:500,400' rel='stylesheet' type='text/css'>
-    <title ng-bind="title || 'Application'"></title>
+    <title ng-bind="current_page || 'Application'"></title>
     <!--[if lte IE 10]>
     <script type="text/javascript">document.location.href = '/unsupported-browser'</script>
     <![endif]-->

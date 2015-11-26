@@ -10,7 +10,12 @@
      *
      * @requires $scope
      * */
-    angular.module('app.controllers').controller('AppCtrl', ['$scope', function($scope) {
+    angular.module('app.controllers').controller('AppCtrl', ['$scope', '$rootScope', function($scope, $rootScope) {
+        $scope.$watch(function() {
+            return $rootScope.current_page;
+        }, function(newPage) {
+            $scope.current_page = newPage || 'Page Name';
+        });
 
     }]);
 })();
