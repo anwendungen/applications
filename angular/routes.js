@@ -14,22 +14,22 @@
                 abstract: true,
                 url     : '/dashboard',
                 views   : {
-                    'layout@'               : {
-                        templateUrl: layout('dashboard.layout')
+                    'layout@'         : {
+                        templateUrl: layout('dashboard.simple')
                     },
-                    'header@dashboard'      : {
+                    'header@dashboard': {
                         templateUrl: view('dashboard.header')
                     },
-                    'leftsection@dashboard' : {
-                        templateUrl: view('dashboard.leftsection')
+                    'left@dashboard'  : {
+                        templateUrl: view('dashboard.left')
                     },
-                    'rightsection@dashboard': {
-                        templateUrl: view('dashboard.rightsection')
+                    'right@dashboard' : {
+                        templateUrl: view('dashboard.right')
                     },
-                    'footer@dashboard'      : {
+                    'footer@dashboard': {
                         templateUrl: view('dashboard.footer')
                     },
-                    'main@dashboard'        : {}
+                    'main@dashboard'  : {}
                 }
             })
             .state('dashboard.home', {
