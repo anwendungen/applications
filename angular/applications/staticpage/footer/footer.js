@@ -5,7 +5,7 @@
 (function() {
     'use strict';
 
-    angular.module('app.controllers').controller('DashboardFooterCtrl', ['$scope', function($scope) {
+    angular.module('app.controllers').controller('StaticpageFooterCtrl', ['$scope', function($scope) {
 
     }]);
 })();
