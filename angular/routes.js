@@ -107,16 +107,16 @@
                 url     : '/page',
                 views   : {
                     'layout@'                : {
-                        templateUrl: layout('staticpage.layout')
+                        templateUrl: layout('staticpage.simple')
                     },
                     'header@staticpage'      : {
                         templateUrl: view('staticpage.header')
                     },
-                    'leftsection@staticpage' : {
-                        templateUrl: view('staticpage.leftsection')
+                    'left@staticpage' : {
+                        templateUrl: view('staticpage.left')
                     },
-                    'rightsection@staticpage': {
-                        templateUrl: view('staticpage.rightsection')
+                    'right@staticpage': {
+                        templateUrl: view('staticpage.right')
                     },
                     'footer@staticpage'      : {
                         templateUrl: view('staticpage.footer')
@@ -124,12 +124,12 @@
                     'main@staticpage'        : {}
                 }
             })
-            .state('staticpage.landing', {
+            .state('staticpage.home', {
                 url  : '/',
-                data : { pageName: 'Overview' },
+                data : { pageName: 'Homepage' },
                 views: {
                     'main@staticpage': {
-                        templateUrl: view('staticpage.landing')
+                        templateUrl: view('staticpage.home')
                     }
                 }
             });

@@ -1,11 +1,11 @@
 /**
- * Created by anonymoussc on 26/11/15 5:40.
+ * Created by anonymoussc on 26/11/15 18:18.
  */
 
 (function() {
     'use strict';
 
-    angular.module('app.controllers').controller('DashboardSimpleCtrl', function($scope, $timeout, $mdSidenav, $log) {
+    angular.module('app.controllers').controller('StaticpageSimpleCtrl', function($scope, $timeout, $mdSidenav, $log) {
         $scope.toggleLeft  = buildDelayedToggler('left');
         $scope.toggleRight = buildToggler('right');
         $scope.isOpenRight = function() {
@@ -38,7 +38,7 @@
                 $mdSidenav(navID)
                     .toggle()
                     .then(function() {
-                        $log.debug("toggle " + navID + " is done");
+                        // $log.debug("toggle " + navID + " is done");
                     });
             }, 200);
         }
@@ -48,7 +48,7 @@
                 $mdSidenav(navID)
                     .toggle()
                     .then(function() {
-                        $log.debug("toggle " + navID + " is done");
+                        // $log.debug("toggle " + navID + " is done");
                     });
             };
         }
