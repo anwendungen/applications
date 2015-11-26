@@ -38,7 +38,7 @@
                 $mdSidenav(navID)
                     .toggle()
                     .then(function() {
-                        $log.debug("toggle " + navID + " is done");
+                        // $log.debug("toggle " + navID + " is done");
                     });
             }, 200);
         }
@@ -48,7 +48,7 @@
                 $mdSidenav(navID)
                     .toggle()
                     .then(function() {
-                        $log.debug("toggle " + navID + " is done");
+                        // $log.debug("toggle " + navID + " is done");
                     });
             };
         }
