@@ -12,9 +12,9 @@
      * */
     angular.module('app.controllers').controller('AppCtrl', ['$scope', '$rootScope', function($scope, $rootScope) {
         $scope.$watch(function() {
-            return $rootScope.current_page;
+            return $rootScope.title;
         }, function(newPage) {
-            $scope.current_page = newPage || 'Page Name';
+            $scope.title = newPage || 'Application';
         });
 
     }]);
