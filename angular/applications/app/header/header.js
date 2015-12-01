@@ -5,7 +5,7 @@
 (function() {
     'use strict';
 
-    angular.module('app.controllers').controller('HeaderCtrl', ['$scope', function($scope) {
+    angular.module('app.controllers').controller('HeaderController', ['$scope', function($scope) {
 
     }]);
 })();

@@ -57,12 +57,14 @@
                 abstract: true,
                 views   : {
                     'layout@'   : {
-                        templateUrl: layout('app.simple'),
+                        templateUrl : layout('app.simple'),
                         controller  : 'SimpleController',
                         controllerAs: 'as'
                     },
                     'header@app': {
-                        templateUrl: view('app.header')
+                        templateUrl : view('app.header'),
+                        controller  : 'HeaderController',
+                        controllerAs: 'ah'
                     },
                     'left@app'  : {
                         templateUrl: view('app.left')
