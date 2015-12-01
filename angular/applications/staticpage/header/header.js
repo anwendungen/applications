@@ -5,7 +5,7 @@
 (function() {
     'use strict';
 
-    angular.module('app.controllers').controller('StaticpageHeaderCtrl', ['$scope', function($scope) {
+    angular.module('app.controllers').controller('StaticpageHeaderController', ['$scope', function($scope) {
 
     }]);
 })();

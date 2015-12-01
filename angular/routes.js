@@ -105,7 +105,9 @@
                         controllerAs: 'staticpageSimple'
                     },
                     'header@staticpage': {
-                        templateUrl: view('staticpage.header')
+                        templateUrl : view('staticpage.header'),
+                        controller  : 'StaticpageHeaderController',
+                        controllerAs: 'staticpageHeader'
                     },
                     'left@staticpage'  : {
                         templateUrl: view('staticpage.left')
