@@ -20,7 +20,9 @@
                         controllerAs: 'DashboardSimple'
                     },
                     'header@dashboard': {
-                        templateUrl: view('dashboard.header')
+                        templateUrl: view('dashboard.header'),
+                        controller  : 'DashboardHeaderController',
+                        controllerAs: 'DashboardHeader'
                     },
                     'left@dashboard'  : {
                         templateUrl: view('dashboard.left')
