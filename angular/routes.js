@@ -149,7 +149,7 @@
 
         function layout(viewName) {
             if (viewName !== "") {
-                return './views/themes/' + appName(viewName) + '/' + fileDir(viewName) + '/' + fileName(viewName) + '.html';
+                return './views/layouts/' + appName(viewName) + '/' + fileDir(viewName) + '/' + fileName(viewName) + '.html';
             } else {
                 return './views/applications/app/home/home.html';
             }
