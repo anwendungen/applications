@@ -35,7 +35,9 @@
                         controllerAs: 'dr'
                     },
                     'footer@dashboard': {
-                        templateUrl: view('dashboard.footer')
+                        templateUrl: view('dashboard.footer'),
+                        controller  : 'DashboardFooterController',
+                        controllerAs: 'df'
                     },
                     'main@dashboard'  : {}
                 }
