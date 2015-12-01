@@ -100,7 +100,9 @@
                 url     : '/page',
                 views   : {
                     'layout@'          : {
-                        templateUrl: layout('staticpage.simple')
+                        templateUrl : layout('staticpage.simple'),
+                        controller  : 'StaticpageSimpleController',
+                        controllerAs: 'staticpageSimple'
                     },
                     'header@staticpage': {
                         templateUrl: view('staticpage.header')
