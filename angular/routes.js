@@ -67,12 +67,14 @@
                         controllerAs: 'header'
                     },
                     'left@app'  : {
-                        templateUrl: view('app.left'),
+                        templateUrl : view('app.left'),
                         controller  : 'LeftController',
                         controllerAs: 'left'
                     },
                     'right@app' : {
-                        templateUrl: view('app.right')
+                        templateUrl : view('app.right'),
+                        controller  : 'RightController',
+                        controllerAs: 'right'
                     },
                     'footer@app': {
                         templateUrl: view('app.footer')
