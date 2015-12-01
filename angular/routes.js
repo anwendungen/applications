@@ -15,7 +15,9 @@
                 url     : '/dashboard',
                 views   : {
                     'layout@'         : {
-                        templateUrl: layout('dashboard.simple')
+                        templateUrl : layout('dashboard.simple'),
+                        controller  : 'DashboardSimpleController',
+                        controllerAs: 'DashboardSimple'
                     },
                     'header@dashboard': {
                         templateUrl: view('dashboard.header')
@@ -33,9 +35,9 @@
                 }
             })
             .state('dashboard.home', {
-                url  : '/',
-                data : { pageName: 'Overview' },
-                views: {
+                url         : '/',
+                data        : { pageName: 'Overview' },
+                views       : {
                     'main@dashboard': {
                         templateUrl: view('dashboard.home')
                     }
@@ -75,22 +77,22 @@
                 abstract: true,
                 url     : '/page',
                 views   : {
-                    'layout@'                : {
+                    'layout@'          : {
                         templateUrl: layout('staticpage.simple')
                     },
-                    'header@staticpage'      : {
+                    'header@staticpage': {
                         templateUrl: view('staticpage.header')
                     },
-                    'left@staticpage' : {
+                    'left@staticpage'  : {
                         templateUrl: view('staticpage.left')
                     },
-                    'right@staticpage': {
+                    'right@staticpage' : {
                         templateUrl: view('staticpage.right')
                     },
-                    'footer@staticpage'      : {
+                    'footer@staticpage': {
                         templateUrl: view('staticpage.footer')
                     },
-                    'main@staticpage'        : {}
+                    'main@staticpage'  : {}
                 }
             })
             .state('staticpage.landing', {

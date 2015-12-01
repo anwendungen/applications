@@ -5,7 +5,7 @@
 (function() {
     'use strict';
 
-    angular.module('app.controllers').controller('DashboardSimpleCtrl', function($scope, $timeout, $mdSidenav, $log) {
+    angular.module('app.controllers').controller('DashboardSimpleController', function($scope, $timeout, $mdSidenav, $log) {
         $scope.toggleLeft  = buildDelayedToggler('left');
         $scope.toggleRight = buildToggler('right');
         $scope.isOpenRight = function() {
