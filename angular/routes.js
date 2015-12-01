@@ -120,7 +120,9 @@
                         controllerAs: 'staticpageRight'
                     },
                     'footer@staticpage': {
-                        templateUrl: view('staticpage.footer')
+                        templateUrl : view('staticpage.footer'),
+                        controller  : 'StaticpageFooterController',
+                        controllerAs: 'staticpageFooter'
                     },
                     'main@staticpage'  : {}
                 }
