@@ -17,15 +17,17 @@
                     'layout@'         : {
                         templateUrl : layout('dashboard.simple'),
                         controller  : 'DashboardSimpleController',
-                        controllerAs: 'DashboardSimple'
+                        controllerAs: 'ds'
                     },
                     'header@dashboard': {
                         templateUrl: view('dashboard.header'),
                         controller  : 'DashboardHeaderController',
-                        controllerAs: 'DashboardHeader'
+                        controllerAs: 'dh'
                     },
                     'left@dashboard'  : {
-                        templateUrl: view('dashboard.left')
+                        templateUrl: view('dashboard.left'),
+                        controller  : 'DashboardLeftController',
+                        controllerAs: 'dl'
                     },
                     'right@dashboard' : {
                         templateUrl: view('dashboard.right')
