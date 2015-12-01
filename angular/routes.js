@@ -20,17 +20,19 @@
                         controllerAs: 'ds'
                     },
                     'header@dashboard': {
-                        templateUrl: view('dashboard.header'),
+                        templateUrl : view('dashboard.header'),
                         controller  : 'DashboardHeaderController',
                         controllerAs: 'dh'
                     },
                     'left@dashboard'  : {
-                        templateUrl: view('dashboard.left'),
+                        templateUrl : view('dashboard.left'),
                         controller  : 'DashboardLeftController',
                         controllerAs: 'dl'
                     },
                     'right@dashboard' : {
-                        templateUrl: view('dashboard.right')
+                        templateUrl : view('dashboard.right'),
+                        controller  : 'DashboardRightController',
+                        controllerAs: 'dr'
                     },
                     'footer@dashboard': {
                         templateUrl: view('dashboard.footer')
@@ -39,9 +41,9 @@
                 }
             })
             .state('dashboard.home', {
-                url         : '/',
-                data        : { pageName: 'Overview' },
-                views       : {
+                url  : '/',
+                data : { pageName: 'Overview' },
+                views: {
                     'main@dashboard': {
                         templateUrl: view('dashboard.home')
                     }
