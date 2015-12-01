@@ -17,27 +17,27 @@
                     'layout@'         : {
                         templateUrl : layout('dashboard.simple'),
                         controller  : 'DashboardSimpleController',
-                        controllerAs: 'ds'
+                        controllerAs: 'dashboardSimple'
                     },
                     'header@dashboard': {
                         templateUrl : view('dashboard.header'),
                         controller  : 'DashboardHeaderController',
-                        controllerAs: 'dh'
+                        controllerAs: 'dashboardHeader'
                     },
                     'left@dashboard'  : {
                         templateUrl : view('dashboard.left'),
                         controller  : 'DashboardLeftController',
-                        controllerAs: 'dl'
+                        controllerAs: 'dashboardLeft'
                     },
                     'right@dashboard' : {
                         templateUrl : view('dashboard.right'),
                         controller  : 'DashboardRightController',
-                        controllerAs: 'dr'
+                        controllerAs: 'dashboardRight'
                     },
                     'footer@dashboard': {
                         templateUrl : view('dashboard.footer'),
                         controller  : 'DashboardFooterController',
-                        controllerAs: 'df'
+                        controllerAs: 'dashboardFooter'
                     },
                     'main@dashboard'  : {}
                 }
@@ -49,7 +49,7 @@
                     'main@dashboard': {
                         templateUrl : view('dashboard.home'),
                         controller  : 'DashboardHomeController',
-                        controllerAs: 'dho'
+                        controllerAs: 'dashboardHome'
                     }
                 }
             })
@@ -59,15 +59,17 @@
                     'layout@'   : {
                         templateUrl : layout('app.simple'),
                         controller  : 'SimpleController',
-                        controllerAs: 'as'
+                        controllerAs: 'simple'
                     },
                     'header@app': {
                         templateUrl : view('app.header'),
                         controller  : 'HeaderController',
-                        controllerAs: 'ah'
+                        controllerAs: 'header'
                     },
                     'left@app'  : {
-                        templateUrl: view('app.left')
+                        templateUrl: view('app.left'),
+                        controller  : 'LeftController',
+                        controllerAs: 'left'
                     },
                     'right@app' : {
                         templateUrl: view('app.right')
