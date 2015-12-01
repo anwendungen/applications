@@ -4,8 +4,8 @@
 
 (function() {
     'use strict';
-    
-    angular.module('app.controllers').controller('FooterCtrl', ['$scope', function($scope) {
-        
+
+    angular.module('app.controllers').controller('FooterController', ['$scope', function($scope) {
+
     }]);
 })();

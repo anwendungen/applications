@@ -77,7 +77,9 @@
                         controllerAs: 'right'
                     },
                     'footer@app': {
-                        templateUrl: view('app.footer')
+                        templateUrl : view('app.footer'),
+                        controller  : 'FooterController',
+                        controllerAs: 'footer'
                     },
                     'main@app'  : {}
                 }
