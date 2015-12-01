@@ -115,7 +115,9 @@
                         controllerAs: 'staticpageLeft'
                     },
                     'right@staticpage' : {
-                        templateUrl: view('staticpage.right')
+                        templateUrl : view('staticpage.right'),
+                        controller  : 'StaticpageRightController',
+                        controllerAs: 'staticpageRight'
                     },
                     'footer@staticpage': {
                         templateUrl: view('staticpage.footer')

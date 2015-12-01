@@ -5,7 +5,7 @@
 (function() {
     'use strict';
 
-    angular.module('app.controllers').controller('StaticpageRightCtrl', ['$scope', '$timeout', '$mdSidenav', '$log', function($scope, $timeout, $mdSidenav, $log) {
+    angular.module('app.controllers').controller('StaticpageRightController', ['$scope', '$timeout', '$mdSidenav', '$log', function($scope, $timeout, $mdSidenav, $log) {
         $scope.close = function() {
             $mdSidenav('right').close().then(function() {
                 // $log.debug("close RIGHT is done");
