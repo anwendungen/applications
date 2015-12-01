@@ -5,7 +5,7 @@
 (function() {
     'use strict';
 
-    angular.module('app.controllers').controller('StaticpageLandingCtrl', ['$scope', function($scope) {
+    angular.module('app.controllers').controller('StaticpageLandingController', ['$scope', function($scope) {
 
     }]);
 })();

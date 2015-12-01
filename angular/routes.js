@@ -132,7 +132,9 @@
                 data : { pageName: 'Landing page' },
                 views: {
                     'main@staticpage': {
-                        templateUrl: view('staticpage.landing')
+                        templateUrl : view('staticpage.landing'),
+                        controller  : 'StaticpageLandingController',
+                        controllerAs: 'staticpageLanding'
                     }
                 }
             });
