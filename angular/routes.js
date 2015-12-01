@@ -89,7 +89,9 @@
                 data : { pageName: 'Homepage' },
                 views: {
                     'main@app': {
-                        templateUrl: view('app.home')
+                        templateUrl : view('app.home'),
+                        controller  : 'HomeController',
+                        controllerAs: 'home'
                     }
                 }
             })
