@@ -54,7 +54,9 @@
     angular.module('components.factory', []);
     angular.module('components.filters', []);
     angular.module('components.services', []);
-    angular.module('components.routes', []);
+    angular.module('components.routes', [
+        'components.routes.jwtAuth'
+    ]);
 
     angular.module('components.routes.jwtAuth', []);
 
