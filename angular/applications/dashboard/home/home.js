@@ -5,7 +5,7 @@
 (function() {
     'use strict';
 
-    angular.module('app.controllers').controller('DashboardHomeCtrl', ['$scope', function($scope) {
+    angular.module('app.controllers').controller('DashboardHomeController', ['$scope', function($scope) {
 
     }]);
 })();
