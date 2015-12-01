@@ -18,7 +18,7 @@
             'app.routes'
         ]);
 
-    angular.module('app.config', ['ngMaterial','angular-loading-bar']);
+    angular.module('app.config', ['ngMaterial', 'angular-loading-bar']);
     angular.module('app.controllers', [
         'ui.router',
         'ngMaterial',
@@ -33,7 +33,9 @@
     angular.module('app.factory', []);
     angular.module('app.filters', []);
     angular.module('app.services', []);
-    angular.module('app.routes', []);
+    angular.module('app.routes', [
+        'components.routes'
+    ]);
 
     angular.module('components',
         [
@@ -53,5 +55,7 @@
     angular.module('components.filters', []);
     angular.module('components.services', []);
     angular.module('components.routes', []);
+
+    angular.module('components.routes.jwtAuth', []);
 
 })();
