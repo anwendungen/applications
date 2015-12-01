@@ -71,37 +71,6 @@
                     }
                 }
             })
-            .state('jwtauth', {
-                abstract: true,
-                url     : '/auth',
-                views   : {
-                    'layout@'             : {
-                        templateUrl: layout('jwt_auth.simple')
-                    },
-                    'header@jwtauth'      : {
-                        templateUrl: view('jwt_auth.header')
-                    },
-                    'left@jwtauth' : {
-                        templateUrl: view('jwt_auth.left')
-                    },
-                    'right@jwtauth': {
-                        templateUrl: view('jwt_auth.right')
-                    },
-                    'footer@jwtauth'      : {
-                        templateUrl: view('jwt_auth.footer')
-                    },
-                    'main@jwtauth'        : {}
-                }
-            })
-            .state('jwtauth.signin', {
-                url  : '/signin',
-                data : { pageName: 'Sign-in' },
-                views: {
-                    'main@jwtauth': {
-                        templateUrl: view('jwt_auth.home')
-                    }
-                }
-            })
             .state('staticpage', {
                 abstract: true,
                 url     : '/page',
