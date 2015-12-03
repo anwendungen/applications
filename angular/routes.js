@@ -101,8 +101,8 @@
                 views   : {
                     'layout@'          : {
                         templateUrl : layout('staticpage.simple'),
-                        controller  : 'StaticpageSimpleController',
-                        controllerAs: 'staticpageSimple'
+                        controller  : 'StaticpageController',
+                        controllerAs: 'staticpage'
                     },
                     'header@staticpage': {
                         templateUrl : view('staticpage.header'),
