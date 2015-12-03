@@ -16,8 +16,8 @@
                 views   : {
                     'layout@'         : {
                         templateUrl : layout('dashboard.simple'),
-                        controller  : 'DashboardSimpleController',
-                        controllerAs: 'dashboardSimple'
+                        controller  : 'DashboardController',
+                        controllerAs: 'dashboard'
                     },
                     'header@dashboard': {
                         templateUrl : view('dashboard.header'),
