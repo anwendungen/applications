@@ -58,8 +58,8 @@
                 views   : {
                     'layout@'   : {
                         templateUrl : layout('app.simple'),
-                        controller  : 'SimpleController',
-                        controllerAs: 'simple'
+                        controller  : 'AppLayoutController',
+                        controllerAs: 'appLayout'
                     },
                     'header@app': {
                         templateUrl : view('app.header'),
