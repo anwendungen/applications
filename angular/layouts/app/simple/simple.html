@@ -1,8 +1,8 @@
-<div id="sg-layout-container" layout="column" ng-cloak>
+<div id="app-layout-container" layout="column" ng-cloak>
 
     <!--left-->
     <section layout="row" flex>
-        <div id="sg-sidenav">
+        <div id="app-sidenav">
             <md-sidenav class="md-sidenav-left" md-component-id="left" md-is-locked-open="$mdMedia('gt-md')">
                 <div ui-view="left"></div>
             </md-sidenav>
@@ -14,12 +14,10 @@
                 <md-toolbar md-scroll-shrink class="md-primary md-hue-3">
                     <div ui-view="header"></div>
                 </md-toolbar>
-
                 <md-content flex>
                     <div ui-view="main"></div>
                 </md-content>
             </div>
-
             <div flex></div>
         </md-content>
 
