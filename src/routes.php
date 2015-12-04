@@ -14,12 +14,11 @@ Route::get('/unsupported-browser', function () {
 $api = app('Dingo\Api\Routing\Router');
 
 $api->version('v1', function ($api) {
-
-
+    $api->post('authenticate', 'App\Http\Controllers\AuthenticateController@authenticate');
 });
 
-//protected with JWT
+// Protected with JWT
 $api->version('v1', ['middleware' => 'api.auth'], function ($api) {
-
-
+    $api->get('authenticate', 'App\Http\Controllers\AuthenticateController@index');
+    $api->get('authenticate/user', 'App\Http\Controllers\AuthenticateController@getAuthenticatedUser');
 });
