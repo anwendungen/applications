@@ -1,7 +1,6 @@
-<?php namespace Applications;
+<?php namespace Anwendungen\Applications;
 
 use ReflectionClass;
-use Illuminate\Foundation\AliasLoader;
 use Illuminate\Support\ServiceProvider;
 
 class ApplicationsServiceProvider extends ServiceProvider
@@ -22,7 +21,7 @@ class ApplicationsServiceProvider extends ServiceProvider
     public function boot()
     {
         // Find path to the package
-        $applicationFileName = with(new ReflectionClass('Applications\ApplicationsServiceProvider'))->getFileName();
+        $applicationFileName = with(new ReflectionClass('Anwendungen\Applications\ApplicationsServiceProvider'))->getFileName();
         $applicationPath = dirname($applicationFileName);
 
         $this->loadViewsFrom($applicationPath . '/../views', 'applications');
@@ -41,7 +40,7 @@ class ApplicationsServiceProvider extends ServiceProvider
         $this->app->register(\Dingo\Api\Provider\LaravelServiceProvider::class);
         $this->app->register(\Barryvdh\Cors\ServiceProvider::class);
 
-        $this->app->register(\JwtAuth\JwtAuthServiceProvider::class);
+        $this->app->register(\Onderdelen\JwtAuth\JwtAuthServiceProvider::class);
     }
 
     /**
