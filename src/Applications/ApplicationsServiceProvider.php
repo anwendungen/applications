@@ -1,6 +1,7 @@
 <?php namespace Anwendungen\Applications;
 
 use ReflectionClass;
+use Illuminate\Foundation\AliasLoader;
 use Illuminate\Support\ServiceProvider;
 
 class ApplicationsServiceProvider extends ServiceProvider
