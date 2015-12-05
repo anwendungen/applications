@@ -14,6 +14,7 @@
             /* Cross-app modules */
             /* 3rd-party modules */
             'ui.router',
+            'satellizer',
             'restangular',
             'ngStorage',
             'angular-loading-bar',
