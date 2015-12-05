@@ -1,5 +1,5 @@
 /**
- * Created by anonymoussc on 01/12/15 23:26.
+ * Created by anonymous on 01/12/15 23:26.
  */
 
 (function() {
