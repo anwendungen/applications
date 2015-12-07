@@ -9,7 +9,9 @@
 
     angular.module('app',
         [
+            /* Shared modules */
             'app.core',
+            /*----------------*/
             'app.config',
             'app.controllers',
             'app.directives',
