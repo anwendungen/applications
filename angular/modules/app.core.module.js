@@ -19,7 +19,7 @@
             'ngStorage',
             'angular-loading-bar',
             'ngMdIcons',
-            'vAccordion',
+            'vAccordion'
         ]);
 
 })();
