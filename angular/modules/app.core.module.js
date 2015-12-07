@@ -12,6 +12,9 @@
             'ngMessages',
 
             /* Cross-app modules */
+            'blocks.exception',
+            'blocks.logger',
+            'blocks.routes',
             /* 3rd-party modules */
             'ui.router',
             'satellizer',
@@ -21,5 +24,9 @@
             'ngMdIcons',
             'vAccordion'
         ]);
+
+    angular.module('blocks.exception', []);
+    angular.module('blocks.logger', []);
+    angular.module('blocks.routes', []);
 
 })();
