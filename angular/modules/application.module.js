@@ -11,6 +11,7 @@
         [
             /* Shared modules */
             'app.core',
+            'app.widgets',
             /*----------------*/
             'app.config',
             'app.controllers',
@@ -25,6 +26,7 @@
     angular.module('app.directives', []);
     angular.module('app.filters', []);
     angular.module('app.services', []);
+    angular.module('app.widgets', []);
     angular.module('app.routes', [
         'components.routes'
     ]);

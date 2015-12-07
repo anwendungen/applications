@@ -7,7 +7,10 @@
 
     angular.module('components',
         [
+            /* Shared modules */
             'app.core',
+            'app.widgets',
+            /*----------------*/
             'components.config',
             'components.controllers',
             'components.directives',
