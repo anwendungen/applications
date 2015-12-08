@@ -10,6 +10,8 @@
             /* Angular modules */
             'ngMaterial',
             'ngMessages',
+            'ngResource',
+            'ngMessages',
 
             /* Cross-app modules */
             'blocks.exception',
@@ -22,6 +24,7 @@
             'ngStorage',
             'angular-loading-bar',
             'ngMdIcons',
+            'toastr',
             'vAccordion'
         ]);
 
