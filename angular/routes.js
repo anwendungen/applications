@@ -1,11 +1,11 @@
 /**
- * Created by anonymoussc on 18/11/15 17:31.
+ * Created by anonymous on 18/11/15 17:31.
  */
 
 (function() {
     'use strict';
 
-    angular.module('app.routes').config(function($stateProvider, $urlRouterProvider) {
+    angular.module('app').config(function($stateProvider, $urlRouterProvider) {
 
         $urlRouterProvider.otherwise('/');
 

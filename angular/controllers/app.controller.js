@@ -1,12 +1,12 @@
 /**
- * Created by anonymoussc on 01/12/15 2:46.
+ * Created by anonymous on 01/12/15 2:46.
  */
 
 (function() {
     'use strict';
 
     angular
-        .module('app.controllers')
+        .module('app')
         .controller('AppController', AppController);
 
     AppController.$inject = ['$scope', '$rootScope'];

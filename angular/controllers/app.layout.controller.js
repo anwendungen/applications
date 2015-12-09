@@ -1,12 +1,12 @@
 /**
- * Created by anonymoussc on 03/12/15 22:53.
+ * Created by anonymous on 03/12/15 22:53.
  */
 
 (function() {
     'use strict';
 
     angular
-        .module('app.controllers')
+        .module('app')
         .controller('AppLayoutController', AppLayoutController);
 
     AppLayoutController.$inject = [];

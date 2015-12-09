@@ -2,7 +2,7 @@
     'use strict';
 
     angular
-        .module('app.config')
+        .module('app')
         .config(theming);
 
     theming.$inject = ['$mdThemingProvider'];

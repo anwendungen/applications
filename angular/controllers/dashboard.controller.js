@@ -1,12 +1,12 @@
 /**
- * Created by anonymoussc on 03/12/15 23:09.
+ * Created by anonymous on 03/12/15 23:09.
  */
 
 (function() {
     'use strict';
 
     angular
-        .module('app.controllers')
+        .module('app')
         .controller('DashboardController', DashboardController);
 
     DashboardController.$inject = [];
