@@ -6,7 +6,7 @@
     'use strict';
 
     /* Application */
-    angular.module('application', ['app']);
+    angular.module('applications', ['app']);
 
     angular
         .module('app', [
