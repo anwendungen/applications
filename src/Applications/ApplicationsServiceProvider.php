@@ -41,7 +41,9 @@ class ApplicationsServiceProvider extends ServiceProvider
         $this->app->register(\Dingo\Api\Provider\LaravelServiceProvider::class);
         $this->app->register(\Barryvdh\Cors\ServiceProvider::class);
 
-        $this->app->register(\Onderdelen\JwtAuth\JwtAuthServiceProvider::class);
+        $this->app->register(\Onderdelen\Dashboard\DashboardServiceProvider::class);
+        $this->app->register(\Onderdelen\Client\ClientServiceProvider::class);
+        $this->app->register(\AppsLibX\JwtAuth\JwtAuthServiceProvider::class);
     }
 
     /**
