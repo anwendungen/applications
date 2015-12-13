@@ -11,7 +11,7 @@
     angular
         .module('app', [
             /* Shared */
-            'main',
+            'app.foundation',
             'widgets',
 
             /* service components */
