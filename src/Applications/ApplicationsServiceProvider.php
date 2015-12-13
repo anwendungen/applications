@@ -22,7 +22,7 @@ class ApplicationsServiceProvider extends ServiceProvider
     public function boot()
     {
         // Find path to the package
-        $applicationFileName = with(new ReflectionClass('Anwendungen\Applications\ApplicationsServiceProvider'))->getFileName();
+        $applicationFileName = with(new ReflectionClass('\Anwendungen\Applications\ApplicationsServiceProvider'))->getFileName();
         $applicationPath = dirname($applicationFileName);
 
         $this->loadViewsFrom($applicationPath . '/../views', 'applications');
