@@ -7,12 +7,12 @@
 
     angular
         .module('app')
-        .config(config);
+        .config(appRouter);
 
-    config.$inject = ['$stateProvider', '$urlRouterProvider'];
+    appRouter.$inject = ['$stateProvider', '$urlRouterProvider'];
 
     /* @ngInject */
-    function config($stateProvider, $urlRouterProvider) {
+    function appRouter($stateProvider, $urlRouterProvider) {
         // $urlRouterProvider.otherwise('/');
     }
 
