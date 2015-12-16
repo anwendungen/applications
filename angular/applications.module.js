@@ -15,9 +15,8 @@
             'widgets',
 
             /* service components */
-            'dashboard',
-            'client',
-            'jwtAuth'
+            'appbase',
+            'client'
         ]);
 
 })();
