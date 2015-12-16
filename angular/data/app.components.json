@@ -3,6 +3,7 @@
   "application"   : "anwendungen/applications/",
   "components"    : [
     "consigliere/app-foundation/",
+    "consigliere/appbase/",
     "onderdelen/dashboard/",
     "onderdelen/client/",
     "onderdelen/jwt-auth/"
