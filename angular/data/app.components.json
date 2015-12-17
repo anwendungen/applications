@@ -6,7 +6,7 @@
     "consigliere/appbase/",
     "onderdelen/dashboard/",
     "onderdelen/client/",
-    "onderdelen/jwt-auth/"
+    "apps-libX/jwt-auth/"
   ],
   "published"     : false
 }
