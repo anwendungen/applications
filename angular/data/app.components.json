@@ -4,10 +4,10 @@
   "components"    : [
     "onderdelen/flexi-list/",
     "consigliere/app-foundation/",
-    "consigliere/appbase/",
     "onderdelen/dashboard/",
     "onderdelen/client/",
-    "onderdelen/jwt-auth/"
+    "onderdelen/jwt-auth/",
+    "consigliere/appbase/"
   ],
   "published"     : false
 }
