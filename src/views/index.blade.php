@@ -15,6 +15,7 @@
 <div ui-view="layout"></div>
 
 <script src="{!! asset('js/vendor.js') !!}"></script>
+<script src="{!! asset('js/partials.js') !!}"></script>
 <script src="{!! asset('js/app.js') !!}"></script>
 
 {{--livereload--}}
