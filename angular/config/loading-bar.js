@@ -1,3 +1,4 @@
+/*
 (function() {
     'use strict';
 
@@ -7,10 +8,11 @@
 
     cfpLoadingBar.$inject = ['cfpLoadingBarProvider'];
 
-    /* @ngInject */
+    /!* @ngInject *!/
     function cfpLoadingBar(cfpLoadingBarProvider) {
         cfpLoadingBarProvider.includeSpinner = false;
     }
 
 })();
+*/
 

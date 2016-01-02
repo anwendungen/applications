@@ -1,3 +1,4 @@
+/*
 (function() {
     'use strict';
 
@@ -7,7 +8,7 @@
 
     theming.$inject = ['$mdThemingProvider'];
 
-    /* @ngInject */
+    /!* @ngInject *!/
     function theming($mdThemingProvider) {
         $mdThemingProvider.theme('default')
             .primaryPalette('grey')
@@ -16,4 +17,4 @@
     }
 
 })();
-
+*/
