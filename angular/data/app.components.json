@@ -2,7 +2,6 @@
   "base_directory": "app_components/",
   "application"   : "anwendungen/applications/",
   "components"    : [
-    "onderdelen/flexi-list/",
     "consigliere/app-foundation/",
     "onderdelen/dashboard/",
     "onderdelen/client/",
