@@ -11,16 +11,14 @@
     {
       "name"    : "anonymoussc",
       "email"   : "50c5ac69@opayq.com",
-      "homepage": "https://github.com/anwendungen/",
+      "homepage": "https://github.com/anwendungen",
       "role"    : "Developer"
     }
   ],
   "require"          : {
     "php"                  : ">=5.5.9",
     "illuminate/support"   : "5.1.*",
-    "illuminate/contracts" : "5.1.*",
-    "dingo/api"            : "1.0.*@dev",
-    "barryvdh/laravel-cors": "0.7.x"
+    "illuminate/contracts" : "5.1.*"
   },
   "require-dev"      : {
     "fzaninotto/faker": "~1.4",
