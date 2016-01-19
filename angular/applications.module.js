@@ -1,4 +1,5 @@
 /**
+ * applications.module.js
  * Created by anonymous on 08/12/15 17:07.
  */
 
