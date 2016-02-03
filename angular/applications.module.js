@@ -16,7 +16,8 @@
             'widgets',
 
             /* service components */
-            'appbase',
+            'dashboard',
+            'seneschal',
             'client'
         ]);
 
