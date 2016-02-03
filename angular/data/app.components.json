@@ -5,8 +5,7 @@
     "onderdelen/app-foundation/",
     "onderdelen/dashboard/",
     "onderdelen/client/",
-    "onderdelen/seneschal/",
-    "onderdelen/appbase/"
+    "onderdelen/seneschal/"
   ],
   "published"     : false
 }
