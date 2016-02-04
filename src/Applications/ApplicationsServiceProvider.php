@@ -40,7 +40,6 @@ class ApplicationsServiceProvider extends ServiceProvider
     {
         $this->app->register(\Onderdelen\Dashboard\DashboardServiceProvider::class);
         $this->app->register(\Onderdelen\Seneschal\SeneschalServiceProvider::class);
-        $this->app->register(\Onderdelen\Client\ClientServiceProvider::class);
     }
 
     /**
