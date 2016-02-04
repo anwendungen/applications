@@ -15,7 +15,6 @@
     /* @ngInject */
     function ClientAsideController($timeout, $mdSidenav, $log) {
         var vm   = this;
-        vm.title = 'ClientAsideController';
         vm.close = function() {
             $mdSidenav('right').close()
                 .then(function() {
