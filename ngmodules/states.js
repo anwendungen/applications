@@ -21,7 +21,7 @@
                 abstract: true,
                 views   : {
                     'layout@'      : {
-                        templateUrl : layout('client.simple'),
+                        templateUrl : layout('themes.minimalist'),
                         controller  : 'ClientController',
                         controllerAs: 'client'
                     },
