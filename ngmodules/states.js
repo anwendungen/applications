@@ -123,7 +123,7 @@
             if (viewName !== '') {
                 return './views/layouts/' + appName(viewName) + '/' + fileDir(viewName) + '/' + fileName(viewName) + '.html';
             } else {
-                return './views/app/app/home/home.html';
+                return './views/layouts/themes/default/minimalist.html';
             }
         }
 
