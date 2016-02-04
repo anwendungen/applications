@@ -7,7 +7,7 @@
     'use strict';
 
     angular
-        .module('client')
+        .module('app')
         .controller('StaticpageController', StaticpageController);
 
     StaticpageController.$inject = [];
