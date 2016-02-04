@@ -9,28 +9,15 @@
     /* Application */
     angular.module('applications', ['app']);
 
-    angular
-        .module('app', [
-            /* Shared */
-            'appFoundation',
-            'widgets',
+    angular.module('app', [
+        /* Shared */
+        'appFoundation',
+        'widgets',
 
-            /* service components */
-            'dashboard',
-            'seneschal',
-            'client'
-        ]);
+        /* service components */
+        'dashboard',
+        'seneschal'
+    ]);
 
 })();
 
-/**
- * client.module.js
- * Created by anonymous on 09/12/15 13:12.
- */
-
-(function() {
-    'use strict';
-
-    angular.module('client', []);
-
-})();
