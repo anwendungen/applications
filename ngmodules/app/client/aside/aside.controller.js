@@ -1,4 +1,5 @@
 /**
+ * aside.controller.js
  * Created by anonymous on 03/01/16 5:02.
  */
 
@@ -6,7 +7,7 @@
     'use strict';
 
     angular
-        .module('client')
+        .module('app')
         .controller('ClientAsideController', ClientAsideController);
 
     ClientAsideController.$inject = ['$timeout', '$mdSidenav', '$log'];
