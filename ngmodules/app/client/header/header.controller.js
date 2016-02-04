@@ -7,7 +7,7 @@
     'use strict';
 
     angular
-        .module('client')
+        .module('app')
         .controller('ClientHeaderController', ClientHeaderController);
 
     ClientHeaderController.$inject = ['$timeout', '$mdSidenav', '$log'];
