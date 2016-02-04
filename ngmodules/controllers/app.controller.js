@@ -1,4 +1,5 @@
 /**
+ * app.controller.js
  * Created by anonymous on 01/12/15 2:46.
  */
 
@@ -14,7 +15,6 @@
     /* @ngInject */
     function AppController($scope, $rootScope) {
         var vm   = this;
-        vm.title = 'AppController';
 
         activate();
 
