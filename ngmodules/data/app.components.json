@@ -4,7 +4,6 @@
   "components"    : [
     "onderdelen/app-foundation/",
     "onderdelen/dashboard/",
-    "onderdelen/client/",
     "onderdelen/seneschal/"
   ],
   "published"     : false
