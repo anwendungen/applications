@@ -17,43 +17,43 @@
         $urlRouterProvider.otherwise('/');
 
         $stateProvider
-            .state('app', {
+            .state('client', {
                 abstract: true,
                 views   : {
-                    'layout@'    : {
-                        templateUrl : layout('app.simple'),
+                    'layout@'      : {
+                        templateUrl : layout('client.simple'),
                         controller  : 'ClientController',
-                        controllerAs: 'app'
+                        controllerAs: 'client'
                     },
-                    'header@app' : {
-                        templateUrl : view('app.header'),
+                    'header@client': {
+                        templateUrl : view('client.header'),
                         controller  : 'ClientHeaderController',
                         controllerAs: 'header'
                     },
-                    'sidenav@app': {
-                        templateUrl : view('app.sidenav'),
+                    'sidenav@client'  : {
+                        templateUrl : view('client.sidenav'),
                         controller  : 'ClientSidenavController',
                         controllerAs: 'sidenav'
                     },
-                    'aside@app'  : {
-                        templateUrl : view('app.aside'),
+                    'aside@client' : {
+                        templateUrl : view('client.aside'),
                         controller  : 'ClientAsideController',
                         controllerAs: 'aside'
                     },
-                    'footer@app' : {
-                        templateUrl : view('app.footer'),
+                    'footer@client': {
+                        templateUrl : view('client.footer'),
                         controller  : 'ClientFooterController',
                         controllerAs: 'footer'
                     },
-                    'main@app'   : {}
+                    'main@client'  : {}
                 }
             })
-            .state('app.home', {
+            .state('client.home', {
                 url  : '/',
                 data : {pageName: 'Homepage'},
                 views: {
-                    'main@app': {
-                        templateUrl : view('app.home'),
+                    'main@client': {
+                        templateUrl : view('client.home'),
                         controller  : 'ClientHomeController',
                         controllerAs: 'home'
                     }
@@ -63,32 +63,32 @@
                 abstract: true,
                 url     : '/page',
                 views   : {
-                    'layout@'           : {
+                    'layout@'          : {
                         templateUrl : layout('staticpage.simple'),
                         controller  : 'StaticpageController',
                         controllerAs: 'staticpage'
                     },
-                    'header@staticpage' : {
+                    'header@staticpage': {
                         templateUrl : view('staticpage.header'),
                         controller  : 'StaticpageHeaderController',
                         controllerAs: 'header'
                     },
-                    'sidenav@staticpage': {
+                    'sidenav@staticpage'  : {
                         templateUrl : view('staticpage.sidenav'),
                         controller  : 'StaticpageSidenavController',
                         controllerAs: 'sidenav'
                     },
-                    'aside@staticpage'  : {
+                    'aside@staticpage' : {
                         templateUrl : view('staticpage.aside'),
                         controller  : 'StaticpageAsideController',
                         controllerAs: 'aside'
                     },
-                    'footer@staticpage' : {
+                    'footer@staticpage': {
                         templateUrl : view('staticpage.footer'),
                         controller  : 'StaticpageFooterController',
                         controllerAs: 'footer'
                     },
-                    'main@staticpage'   : {}
+                    'main@staticpage'  : {}
                 }
             })
             .state('staticpage.landing', {
