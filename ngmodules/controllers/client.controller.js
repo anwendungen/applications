@@ -7,7 +7,7 @@
     'use strict';
 
     angular
-        .module('client')
+        .module('app')
         .controller('ClientController', ClientController);
 
     ClientController.$inject = [];
