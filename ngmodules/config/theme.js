@@ -9,10 +9,10 @@
     angular
         .module('app')
         .config(defaultTheme)
-        .config(altTheme);
+        .config(warn);
 
     defaultTheme.$inject = ['$mdThemingProvider'];
-    altTheme.$inject     = ['$mdThemingProvider'];
+    warn.$inject     = ['$mdThemingProvider'];
 
     /* @ngInject */
     function defaultTheme($mdThemingProvider) {
@@ -23,11 +23,8 @@
     }
 
     /* @ngInject */
-    function altTheme($mdThemingProvider) {
-        $mdThemingProvider.theme('altTheme')
-            .primaryPalette('red');
-        //.accentPalette('pink')
-        //.warnPalette('red');
+    function warn($mdThemingProvider) {
+        $mdThemingProvider.theme('warn');
     }
 
 })();
