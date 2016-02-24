@@ -8,12 +8,12 @@
 
     angular
         .module('app')
-        .config(appRouter);
+        .config(applicationsRouter);
 
-    appRouter.$inject = ['$stateProvider', '$urlRouterProvider', 'layoutProvider'];
+    applicationsRouter.$inject = ['$stateProvider', '$urlRouterProvider', 'layoutProvider'];
 
     /* @ngInject */
-    function appRouter($stateProvider, $urlRouterProvider, layoutProvider) {
+    function applicationsRouter($stateProvider, $urlRouterProvider, layoutProvider) {
         $urlRouterProvider.otherwise('/');
 
         $stateProvider
