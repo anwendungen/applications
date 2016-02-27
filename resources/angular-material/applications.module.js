@@ -16,7 +16,7 @@
 
         /* service components */
         'dashboard',
-        'seneschal'
+        'client'
     ]);
 
 })();
