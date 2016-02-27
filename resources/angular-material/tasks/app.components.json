@@ -3,8 +3,9 @@
   "application"   : "anwendungen/applications/",
   "components"    : [
     "onderdelen/app-foundation/",
+    "onderdelen/seneschal/",
     "onderdelen/dashboard/",
-    "onderdelen/seneschal/"
+    "onderdelen/client/"
   ],
   "published"     : false
 }
