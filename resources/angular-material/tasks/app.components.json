@@ -5,9 +5,9 @@
     "onderdelen/app-foundation/",
     "teemat/quetzalcoatl/",
     "onderdelen/seneschal/",
+    "onderdelen/posts/",
     "onderdelen/dashboard/",
-    "onderdelen/client/",
-    "onderdelen/posts/"
+    "onderdelen/client/"
   ],
   "published"     : false
 }
