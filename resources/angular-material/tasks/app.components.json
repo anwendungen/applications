@@ -3,9 +3,11 @@
   "application"   : "anwendungen/applications/",
   "components"    : [
     "onderdelen/app-foundation/",
+    "teemat/quetzalcoatl/",
     "onderdelen/seneschal/",
     "onderdelen/dashboard/",
-    "onderdelen/client/"
+    "onderdelen/client/",
+    "onderdelen/posts/"
   ],
   "published"     : false
 }
