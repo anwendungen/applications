@@ -23,7 +23,7 @@ class ApplicationsServiceProvider extends ServiceProvider
     {
         // Find path to the package
         $applicationFileName = with(new ReflectionClass('\Anwendungen\Applications\ApplicationsServiceProvider'))->getFileName();
-        $applicationPath = dirname($applicationFileName);
+        $applicationPath     = dirname($applicationFileName);
 
         $this->loadViewsFrom($applicationPath . '/../views', 'applications');
 
@@ -38,6 +38,7 @@ class ApplicationsServiceProvider extends ServiceProvider
      */
     public function register()
     {
+        $this->app->register(\Onderdelen\AppFoundation\AppFoundationServiceProvider::class);
         $this->app->register(\Onderdelen\Dashboard\DashboardServiceProvider::class);
         $this->app->register(\Onderdelen\Client\ClientServiceProvider::class);
     }
