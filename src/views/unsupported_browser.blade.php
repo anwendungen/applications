@@ -48,7 +48,7 @@
 
 <div>
     <a target="_blank" href="https://www.mozilla.org/en-US/firefox/new/">
-        <img src="https://i.imgur.com/icGtPQC.png"/><br>
+        <img src="https://raw.githubusercontent.com/anonymoussc/stratosphere/gh-pages/img/public/firefox_logo.png"/><br>
     </a>
 </div>
 
@@ -56,7 +56,7 @@
 
 <div>
     <a target="_blank" href="https://www.google.com/chrome/browser/desktop/index.html">
-        <img src="https://i.imgur.com/2J8FJ1Z.png"/><br>
+        <img src="https://raw.githubusercontent.com/anonymoussc/stratosphere/gh-pages/img/public/chrome_logo.png"/><br>
     </a>
 </div>
 
@@ -64,4 +64,7 @@
 </html>
 
 
-{{--Created by anonymoussc on 05/10/15 19:38.--}}
+{{--
+  - unsupported_browser.blade.php
+  - Created by anonymoussc on 05/10/15 19:38.
+--}}
