@@ -4,13 +4,16 @@
  * Created by anonymoussc on 22/11/15 5:03.
  */
 
-Route::get('/', [
-    'as' => 'home',
-    function () {
-        return view('applications::index');
-    },
-]);
+Route::get('/',
+    [
+        'as'   => 'home',
+        'uses' => 'Anwendungen\Applications\Controllers\ApplicationsController@appStart',
+    ]
+);
 
-Route::get('/unsupported-browser', function () {
-    return view('applications::unsupported_browser');
-});
+Route::get('/unsupported-browser',
+    [
+        'as'   => 'app.unsupported',
+        'uses' => 'Anwendungen\Applications\Controllers\ApplicationsController@appUnsupported',
+    ]
+);
