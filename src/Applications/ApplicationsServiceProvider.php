@@ -38,9 +38,9 @@ class ApplicationsServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->app->register(\Onderdelen\AppFoundation\AppFoundationServiceProvider::class);
-        $this->app->register(\Onderdelen\Dashboard\DashboardServiceProvider::class);
-        $this->app->register(\Onderdelen\Client\ClientServiceProvider::class);
+        $this->app->register(\Componeint\AppFoundation\AppFoundationServiceProvider::class);
+        $this->app->register(\Componeint\Dashboard\DashboardServiceProvider::class);
+        $this->app->register(\Componeint\Client\ClientServiceProvider::class);
     }
 
     /**

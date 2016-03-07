@@ -2,12 +2,12 @@
   "base_directory": "app_components/",
   "application"   : "anwendungen/applications/",
   "components"    : [
-    "onderdelen/app-foundation/",
+    "componeint/app-foundation/",
     "teemat/quetzalcoatl/",
-    "onderdelen/seneschal/",
-    "onderdelen/posts/",
-    "onderdelen/dashboard/",
-    "onderdelen/client/"
+    "componeint/seneschal/",
+    "componeint/posts/",
+    "componeint/dashboard/",
+    "componeint/client/"
   ],
   "published"     : false
 }

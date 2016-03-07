@@ -6,7 +6,7 @@
 
 namespace Anwendungen\Applications\Controllers;
 
-use Onderdelen\AppFoundation\Controller\Controller;
+use Componeint\AppFoundation\Controller\Controller;
 
 /**
  * Class ApplicationsController
