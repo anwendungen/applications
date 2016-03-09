@@ -2,11 +2,12 @@
   "base_directory": "app_components/",
   "application"   : "anwendungen/applications/",
   "components"    : [
-    "componeint/app-foundation/",
     "teemat/quetzalcoatl/",
+    "componeint/app-foundation/",
     "componeint/seneschal/",
-    "componeint/posts/",
     "componeint/dashboard/",
+    "componeint/pages/",
+    "componeint/posts/",
     "componeint/client/"
   ],
   "published"     : false
