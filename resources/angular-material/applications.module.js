@@ -10,12 +10,18 @@
     angular.module('applications', ['app']);
 
     angular.module('app', [
+        /* Themes */
+        'quetzalcoatl',
+
         /* Shared */
         'appFoundation',
         'widgets',
 
-        /* service components */
+        /* Components */
+        'seneschal',
         'dashboard',
+        'pages',
+        'posts',
         'client'
     ]);
 
