@@ -41,6 +41,8 @@ class ApplicationsServiceProvider extends ServiceProvider
         $this->app->register(\Componeint\AppFoundation\AppFoundationServiceProvider::class);
         $this->app->register(\Componeint\Seneschal\SeneschalServiceProvider::class);
         $this->app->register(\Componeint\Dashboard\DashboardServiceProvider::class);
+        $this->app->register(\Componeint\Pages\PagesServiceProvider::class);
+        $this->app->register(\Componeint\Posts\PostsServiceProvider::class);
         $this->app->register(\Componeint\Client\ClientServiceProvider::class);
     }
 
