@@ -1,4 +1,10 @@
-<?php namespace Anwendungen\Applications;
+<?php
+/**
+ * ApplicationsServiceProvider.php
+ * Created by anonymous on 08/12/15 17:07.
+ */
+
+namespace Anwendungen\Applications;
 
 use ReflectionClass;
 use Illuminate\Foundation\AliasLoader;
