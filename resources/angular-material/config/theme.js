@@ -27,10 +27,5 @@
         $mdThemingProvider.theme('warn');
     }
 
-    /* @ngInject */
-    function warn($mdThemingProvider) {
-        $mdThemingProvider.theme('cold');
-    }
-
 })();
 
