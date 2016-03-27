@@ -11,7 +11,7 @@
 
     angular.module('app', [
         /* Themes */
-        'quetzalcoatl',
+        // 'quetzalcoatl',
 
         /* Shared */
         'appFoundation',
