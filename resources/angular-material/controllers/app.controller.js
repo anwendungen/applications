@@ -14,19 +14,23 @@
 
     /* @ngInject */
     function AppController($scope, $rootScope) {
-        var vm   = this;
+
+        var vm = this;
 
         activate();
 
         ////////////////
 
         function activate() {
+
             $scope.$watch(function() {
                 return $rootScope.title;
             }, function(newPage) {
                 $scope.title = newPage || 'Application';
             });
+
         }
+
     }
 
 })();
