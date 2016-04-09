@@ -14,7 +14,7 @@
 
     /* @ngInject */
     function cfpLoadingBar(cfpLoadingBarProvider) {
-        cfpLoadingBarProvider.includeSpinner = false;
+        cfpLoadingBarProvider.includeSpinner = true;
     }
 
 })();
