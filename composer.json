@@ -16,9 +16,9 @@
     }
   ],
   "require"          : {
-    "php"                  : ">=5.5.9",
-    "illuminate/support"   : "5.1.*",
-    "illuminate/contracts" : "5.1.*"
+    "php"                 : ">=5.5.9",
+    "illuminate/support"  : "5.1.*",
+    "illuminate/contracts": "5.1.*"
   },
   "require-dev"      : {
     "fzaninotto/faker": "~1.4",
@@ -41,5 +41,8 @@
       "Anwendungen\\Applications\\Test\\": "tests"
     }
   },
-  "minimum-stability": "stable"
+  "minimum-stability": "stable",
+  "config"           : {
+    "secure-http": false
+  }
 }
