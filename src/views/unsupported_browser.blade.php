@@ -48,7 +48,7 @@
 
 <div>
     <a target="_blank" href="https://www.mozilla.org/en-US/firefox/new/">
-        <img src="https://raw.githubusercontent.com/anonymoussc/stratosphere/gh-pages/img/public/firefox_logo.png"/><br>
+        <img src="https://raw.githubusercontent.com/7cdn/images/master/public/firefox_logo.png"/><br>
     </a>
 </div>
 
@@ -56,7 +56,7 @@
 
 <div>
     <a target="_blank" href="https://www.google.com/chrome/browser/desktop/index.html">
-        <img src="https://raw.githubusercontent.com/anonymoussc/stratosphere/gh-pages/img/public/chrome_logo.png"/><br>
+        <img src="https://raw.githubusercontent.com/7cdn/images/master/public/chrome_logo.png"/><br>
     </a>
 </div>
 
