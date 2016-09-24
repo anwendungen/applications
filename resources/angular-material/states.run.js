@@ -16,6 +16,5 @@
         $rootScope.$on('$viewContentLoaded', function(event, toState) {
             window.Prism.highlightAll();
         });
-
     });
 })();
