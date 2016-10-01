@@ -12,7 +12,6 @@ use Illuminate\Support\ServiceProvider;
 
 class ApplicationsServiceProvider extends ServiceProvider
 {
-
     /**
      * Indicates if loading of the provider is deferred.
      *
@@ -61,5 +60,4 @@ class ApplicationsServiceProvider extends ServiceProvider
     {
         return [];
     }
-
 }
