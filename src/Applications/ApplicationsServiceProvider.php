@@ -1,7 +1,7 @@
 <?php
 /**
  * ApplicationsServiceProvider.php
- * Created by anonymous on 08/12/15 17:07.
+ * Created by @anonymoussc on 08/12/15 17:07.
  */
 
 namespace Anwendungen\Applications;
@@ -27,14 +27,13 @@ class ApplicationsServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        // Find path to the package
         $applicationFileName = with(new ReflectionClass('\Anwendungen\Applications\ApplicationsServiceProvider'))->getFileName();
         $applicationPath     = dirname($applicationFileName);
 
-        $this->loadViewsFrom($applicationPath . '/../views', 'applications');
+        $this->loadViewsFrom($applicationPath . '/../../resources/views', 'applications');
 
+        include $applicationPath . '/../api.routes.php';
         include $applicationPath . '/../routes.php';
-
     }
 
     /**
