@@ -28,4 +28,7 @@
 </html>
 
 
-{{--Created by anonymoussc on 22/11/15 4:12.--}}
+{{--
+  - index.blade.php
+  - Created by anonymoussc on 22/11/15 4:12.
+--}}
