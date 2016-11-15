@@ -20,7 +20,6 @@
         /* Components */
         'seneschal',
         'dashboard',
-        'pages',
         'posts',
         'client'
     ]);
