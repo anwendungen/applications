@@ -31,8 +31,8 @@ class ApplicationsServiceProvider extends ServiceProvider
 
         $this->loadViewsFrom($applicationPath . '/../../resources/views', 'applications');
 
-        include $applicationPath . '/../api.routes.php';
-        include $applicationPath . '/../routes.php';
+        include $applicationPath . '/../../routes/api.php';
+        include $applicationPath . '/../../routes/web.php';
     }
 
     /**
