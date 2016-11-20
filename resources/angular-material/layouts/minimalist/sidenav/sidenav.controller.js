@@ -7,7 +7,7 @@
     'use strict';
 
     angular
-        .module('quetzalcoatl')
+        .module('app')
         .controller('SidenavController', SidenavController);
 
     SidenavController.$inject = ['$timeout', '$mdSidenav', '$log'];

@@ -3,27 +3,24 @@
  * Created by anonymous on 28/02/16 11:19.
  */
 
-(function() {
+(function () {
     'use strict';
 
     angular
-        .module('quetzalcoatl')
+        .module('app')
         .controller('AsideController', AsideController);
 
     AsideController.$inject = ['$timeout', '$mdSidenav', '$log'];
 
     /* @ngInject */
     function AsideController($timeout, $mdSidenav, $log) {
-
         var vm   = this;
-        vm.close = function() {
 
-            $mdSidenav('right').close().then(function() {
+        vm.close = function () {
+            $mdSidenav('right').close().then(function () {
                 // $log.debug("close RIGHT is done");
             });
-
         };
-
 
         activate();
 
@@ -35,4 +32,3 @@
     }
 
 })();
-

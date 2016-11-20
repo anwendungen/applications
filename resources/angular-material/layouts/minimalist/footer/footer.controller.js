@@ -7,16 +7,14 @@
     'use strict';
 
     angular
-        .module('quetzalcoatl')
+        .module('app')
         .controller('FooterController', FooterController);
 
     FooterController.$inject = [];
 
     /* @ngInject */
     function FooterController() {
-
         var vm   = this;
-
 
         activate();
 
@@ -28,4 +26,3 @@
     }
 
 })();
-
