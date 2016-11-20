@@ -3,7 +3,7 @@
  * Created by anonymous on 03/01/16 2:42.
  */
 
-(function() {
+(function () {
     'use strict';
 
     angular
@@ -12,7 +12,7 @@
         .config(warn);
 
     defaultTheme.$inject = ['$mdThemingProvider'];
-    warn.$inject     = ['$mdThemingProvider'];
+    warn.$inject         = ['$mdThemingProvider'];
 
     /* @ngInject */
     function defaultTheme($mdThemingProvider) {
