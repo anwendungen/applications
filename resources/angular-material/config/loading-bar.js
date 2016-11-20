@@ -7,7 +7,7 @@
     'use strict';
 
     angular
-        .module('appFoundation')
+        .module('app')
         .config(cfpLoadingBar);
 
     cfpLoadingBar.$inject = ['cfpLoadingBarProvider'];
